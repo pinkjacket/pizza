@@ -14,7 +14,7 @@ _It's a pizza maker! Choose your toppings and size, and then see what it costs. 
 | Generate a pizza                                                                   | Order Pizza                                                                  | Enjoy your pizza!                                                          |
 | Generate a pizza with various toppings                                             | Order Pizza (checked boxes for peppers, onions, steak)                       | Enjoy your pizza! Toppings: Steak Onions Peppers                           |
 | Generate a pizza with various toppings and a size                                  | Order Pizza (checked boxes for peppers, onions, steak) (Large size selected) | Enjoy your large pizza! Toppings: Steak Onions Peppers                     |
-| Generate a pizza with various toppings, a size, and a price based on those factors | Order Pizza (checked boxes for peppers, onions, steak) (Large size selected) | Enjoy your large pizza! Toppings: Steak Onions Peppers Your bill is $12.50 |
+| Generate a pizza with various toppings, a size, and a price based on those factors | Order Pizza (checked boxes for peppers, onions, steak) (Large size selected) | Enjoy your large pizza! Toppings: Steak Onions Peppers Your bill is $15 |
 
 ## Setup/Installation Requirements
 
