@@ -25,11 +25,7 @@ _It's a pizza maker! Choose your toppings and size, and then see what it costs. 
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
-
-## Support and contact details
-
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_The pizza display is bigger than it needs to be, but I don't think I know enough CSS to fix it right now_
 
 ## Technologies Used
 
