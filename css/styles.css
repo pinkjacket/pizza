@@ -1,0 +1,23 @@
+body {
+  background-color: orange;
+}
+
+#pizzaform {
+  display: inline-block;
+  background-color: lightgreen;
+  border-style:double;
+  border-width:medium;
+  padding: 10px;
+}
+
+#order {
+  display: inline-block;
+  background-color: pink;
+  border-style: double;
+  border-width: medium;
+  padding: 10px;
+}
+
+#orderhide{
+  display:none;
+}

@@ -10,7 +10,7 @@ Pizza.prototype.calculatePrice = function(){
   if (this.size === "large") {
     this.price = 12;
   }
-  if (this.size === "extralarge") {
+  if (this.size === "extra large") {
     this.price = 14;
   }
   this.price = this.price += this.toppings.length;
@@ -26,9 +26,11 @@ $(document).ready(function() {
     });
     var yourPizza = new Pizza(pizzaToppings, pizzaSize)
         $("#results").empty();
-        $("#order").show();
+        $("#toppingsreadout").empty();
+        $("#showprice").empty();
+        $("#orderhide").show();
         $("#results").append("Enjoy your " + yourPizza.size + " pizza!");
         $("#toppingsreadout").append("<li>" + yourPizza.toppings.join("</li> <li>") + "</li>")
-        $("#showprice").append(yourPizza.price)
+        $("#showprice").append("Your bill is $" + yourPizza.price)
   });
 });
