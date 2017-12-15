@@ -1,6 +1,6 @@
 // back end
-function Pizza() {
-  
+function Pizza(pizzaToppings) {
+  this.toppings = pizzaToppings;
 }
 
 
@@ -8,10 +8,14 @@ function Pizza() {
 $(document).ready(function() {
   $("form#pizzaform").submit(function(event) {
     event.preventDefault();
-
-    var yourPizza = Pizza()
+    var pizzaToppings = [];
+    $("input:checkbox[name=toppings]:checked").each(function(){
+      pizzaToppings.push($(this).val());
+    });
+    var yourPizza = new Pizza(pizzaToppings)
         $("#results").empty();
         $("#order").show();
         $("#results").append("Enjoy your pizza!");
+        $("#toppingsreadout").append("<li>" + yourPizza.toppings.join("</li> <li>") + "</li>")
   });
 });
